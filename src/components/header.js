@@ -1,3 +1,5 @@
+"use client"
+
 import { BellIcon, CalendarDaysIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import IconContainer from "./iconContainer";
 export default function Header() {

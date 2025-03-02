@@ -8,10 +8,9 @@ export default function TaskCard({
     createdOn,
     priority,
     status,
-    key
 }) {
     return (
-        <div onClick={() => activeOnClick(index)} key={key} className={`cursor-pointer hover:bg-[#A1A3AB]/[0.17] flex justify-between pr-5 w-[365px] h-[134px] p-2 pl-5 border border-[#A1A3AB] rounded-[14px] 
+        <div onClick={() => activeOnClick(index)} className={`cursor-pointer hover:bg-[#A1A3AB]/[0.17] flex justify-between pr-5 w-[365px] h-[134px] p-2 pl-5 border border-[#A1A3AB] rounded-[14px] 
             ${activatedCardIndex === index
                 ? "bg-[#A1A3AB]/[0.17]"
                 : ""

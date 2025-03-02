@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
         <Header />
         <div className="flex min-h-screen">
           <RightMenu />
-          <main className="mt-16 px-12 flex-1">{children}</main>
+          <main className="h-screen mt-16 px-12 flex-1">{children}</main>
         </div>
       </body>
     </html>
